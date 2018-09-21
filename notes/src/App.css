@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  background: darkgrey;
+  padding: 10px;
+}
+
+.SiteTitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button {
+  width: 160px;
+  height: 30px;
+  color: white;
+  background: turquoise;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.Page {
+  background: lightgray;
+}
+
+.PageHeader {
+  color: black;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0px 15px 10px;
+}
+
+/* NOTE LIST */
+
+.Notes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Note {
+  width: 150px;
+  height: 150px;
+  border: 1.5px grey solid;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+}
+
+.NoteTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.NoteBody {
+  font-size: 12px;
+}
+
+/* NEW NOTE */
+.NoteForm{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewTitle {}
+
+.NewNote {
+  height: 150px;
+}
+
+/* SINGLE NOTE */
+
+
+/* EDIT NOTE */
